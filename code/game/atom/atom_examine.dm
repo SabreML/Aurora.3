@@ -76,9 +76,9 @@
 		else
 			f_name = "a "
 		if(blood_color != COLOR_IPC_BLOOD && blood_color != COLOR_OIL)
-			f_name += "<span class='danger'>blood-stained</span> [name][infix]!"
+			f_name += "<span class='danger'>blood-stained</span> [name]! [infix]"
 		else
-			f_name += "oil-stained [name][infix]."
+			f_name += "<b>oil-stained</b> [name]. [infix]"
 
 	// Object name. I.e. "This is an Object. It is a normal-sized item."
 	. += "[icon2html(src, user)] That's [f_name] [suffix]"
